@@ -47,7 +47,7 @@ ffmpeg \
     -map 0:v:0 \
     -map 0:a:0 \
     -map 0:a:1 \
-    -c:v:0 hevc_vaapi \
+    -c:v:0 h264_vaapi \
     <CUSTOM VIDEO OPTIONS HERE> \
     -c:a:0 copy \
     -c:a:1 copy \
